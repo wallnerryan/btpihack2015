@@ -7,3 +7,7 @@ import bluetooth
 for device_address, name in bluetooth.discover_devices(flush_cache=True, lookup_names=True):
    print "Device: %s -> %s" % (device_address, name) 
 
+
+
+
+
